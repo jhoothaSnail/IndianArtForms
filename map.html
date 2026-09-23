@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Art Map of India | Indian Art Explorer</title>
+  <meta name="description" content="An interactive map of key locations in Indian art history, with images, descriptions and historical context.">
+  <meta name="theme-color" content="#1C2B4A">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22><path d=%22M16 4l13 24H3z%22 fill=%22%231C2B4A%22/></svg>">
+  <link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages/map.css">
+  <script>document.documentElement.classList.add('js')</script>
+</head>
+<body class="page-map">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header id="site-header" class="site-header"><noscript><nav aria-label="Main"><a href="index.html">Home</a> <a href="timeline.html">Timeline</a> <a href="map.html">Map</a> <a href="fusion.html">Fusion</a> <a href="sources.html">Sources</a> <a href="about.html">About</a></nav></noscript></header>
+
+  <main id="main" class="map-layout">
+    <section class="map-sidebar" id="panel" aria-label="Locations">
+      <div class="map-sidebar__head">
+        <p class="eyebrow">Activity 2</p>
+        <h1>Art Map of India</h1>
+        <p class="lead">Eight places across India tied to major art traditions. Choose one from the list or the map.</p>
+      </div>
+
+      <div class="chips" id="filters" role="group" aria-label="Filter by medium"></div>
+      <p class="result-count" id="result-count" aria-live="polite"></p>
+
+      <p class="loading" id="map-loading">Loading locations&hellip;</p>
+      <div class="error" id="map-error" role="alert" hidden>
+        <p>The locations could not load.</p>
+        <button class="btn" id="map-retry" type="button">Try again</button>
+      </div>
+
+      <ul class="loc-list" id="loc-list"></ul>
+
+      <article class="loc-detail" id="loc-detail" aria-labelledby="loc-name" tabindex="-1" hidden>
+        <button class="btn loc-detail__close" id="loc-close" type="button">Back to list</button>
+        <figure class="loc-detail__fig" id="loc-figure" hidden></figure>
+        <p class="tag" id="loc-medium"></p>
+        <h2 id="loc-name"></h2>
+        <p class="meta" id="loc-meta"></p>
+        <div class="tabs" id="loc-tabs" role="tablist" hidden></div>
+        <p id="loc-summary"></p>
+        <p id="loc-context"></p>
+        <p class="dispute" id="loc-dispute" hidden></p>
+        <div id="loc-timeline" hidden>
+          <h3>On the timeline</h3>
+          <ul id="loc-timeline-links"></ul>
+        </div>
+        <h3>Sources</h3>
+        <ul class="source-list" id="loc-sources"></ul>
+      </article>
+
+      <noscript><p class="error">This page needs JavaScript to show the map.</p></noscript>
+    </section>
+
+    <section class="map-wrap" aria-label="Map of art locations">
+      <div id="map" aria-label="Interactive map of Indian art locations"></div>
+      <button class="btn map-reset" id="reset-view" type="button">Reset view</button>
+      <div class="banner" id="tile-banner" role="status" hidden>Map tiles are unavailable right now. You can still browse every location from the list.</div>
+    </section>
+  </main>
+
+  <footer id="site-footer" class="site-footer"><noscript><p><a href="sources.html">Sources &amp; credits</a></p></noscript></footer>
+  <script src="vendor/leaflet/leaflet.js"></script>
+  <script type="module" src="js/layout.js"></script>
+  <script type="module" src="js/map.js"></script>
+</body>
+</html>

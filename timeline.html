@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Timeline of Indian Art | Indian Art Explorer</title>
+  <meta name="description" content="An interactive timeline of Indian art with clickable artifacts, historical context and sources.">
+  <meta name="theme-color" content="#1C2B4A">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22><path d=%22M16 4l13 24H3z%22 fill=%22%231C2B4A%22/></svg>">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages/timeline.css">
+  <script>document.documentElement.classList.add('js')</script>
+</head>
+<body class="page-timeline">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header id="site-header" class="site-header"><noscript><nav aria-label="Main"><a href="index.html">Home</a> <a href="timeline.html">Timeline</a> <a href="map.html">Map</a> <a href="fusion.html">Fusion</a> <a href="sources.html">Sources</a> <a href="about.html">About</a></nav></noscript></header>
+
+  <main id="main">
+    <div class="container">
+      <div class="page-head">
+        <p class="eyebrow">Activity 1</p>
+        <h1>Timeline of Indian Art</h1>
+        <p class="lead">Six traditions, from the Indus Valley to living folk arts. Pick an era, then open an artifact to see it up close.</p>
+        <p class="note"><strong>Not to scale.</strong> The rail groups eras; it does not measure time.</p>
+      </div>
+
+      <nav class="era-rail" id="era-rail" aria-label="Eras">
+        <ul id="era-rail-list"></ul>
+      </nav>
+
+      <ul class="legend" aria-label="Legend">
+        <li><span class="legend__dot legend__dot--dated" aria-hidden="true"></span> Dated works: objects and sites with documented dates</li>
+        <li><span class="legend__dot legend__dot--living" aria-hidden="true"></span> Living traditions: practised today, with origins that are legendary, undocumented or debated</li>
+      </ul>
+
+      <div class="timeline" id="timeline-root">
+        <p class="loading" id="timeline-loading">Loading timeline&hellip;</p>
+        <p class="error" id="timeline-error" role="alert" hidden>The timeline could not load. Reload the page. If you opened this file directly, run it through a web server instead.</p>
+
+        <section class="track track--dated" id="track-dated" aria-labelledby="track-dated-h" hidden>
+          <h2 id="track-dated-h">Dated works</h2>
+          <ol class="spine" id="spine-dated"></ol>
+        </section>
+
+        <section class="track track--living" id="track-living" aria-labelledby="track-living-h" hidden>
+          <h2 id="track-living-h">Living traditions</h2>
+          <p class="track-note">These art forms are still practised. Their earliest origins are legendary, undocumented or debated, so they are shown by milestones rather than a single date.</p>
+          <ol class="spine" id="spine-living"></ol>
+        </section>
+      </div>
+
+      <noscript><p class="error">This page needs JavaScript to show the artifacts.</p></noscript>
+    </div>
+  </main>
+
+  <dialog id="artifact-dialog" class="dialog" aria-labelledby="dlg-title">
+    <div class="dialog__inner">
+      <button class="dialog__close" id="dlg-close" type="button" aria-label="Close artifact details">&times;</button>
+      <div class="dialog__media" id="dlg-media"></div>
+      <div class="dialog__body">
+        <p class="dialog__date" id="dlg-date"></p>
+        <h2 id="dlg-title"></h2>
+        <dl class="facts">
+          <div><dt>Place</dt><dd id="dlg-place"></dd></div>
+          <div><dt>Now held at</dt><dd id="dlg-now"></dd></div>
+          <div><dt>Medium</dt><dd id="dlg-medium"></dd></div>
+        </dl>
+        <p id="dlg-significance"></p>
+        <p class="dispute" id="dlg-dispute" hidden></p>
+        <h3>Sources</h3>
+        <ul class="source-list" id="dlg-sources"></ul>
+        <p class="credit" id="dlg-credit"></p>
+        <a class="btn" id="dlg-map-link" href="map.html" hidden>View on map</a>
+      </div>
+    </div>
+  </dialog>
+
+  <footer id="site-footer" class="site-footer"><noscript><p><a href="sources.html">Sources &amp; credits</a></p></noscript></footer>
+  <script type="module" src="js/layout.js"></script>
+  <script type="module" src="js/timeline.js"></script>
+</body>
+</html>

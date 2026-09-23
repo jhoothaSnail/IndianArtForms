@@ -1,0 +1,10 @@
+{
+  "name": "indian-art-cla1",
+  "version": "0.1.0",
+  "private": true,
+  "description": "CLA-I Indian art project: interactive timeline, art map and Warli x Kalamkari fusion artwork",
+  "scripts": {
+    "dev": "npx http-server . -p 5500 -c-1",
+    "validate": "node scripts/validate.mjs"
+  }
+}
