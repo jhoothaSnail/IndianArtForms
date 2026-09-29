@@ -1,0 +1,241 @@
+/* fusion.css — Fusion page layout and components */
+
+/* ===== Page head ===== */
+.page-fusion .page-head { margin-bottom: var(--space-xl); }
+.page-fusion .page-head h1 { font-size: var(--step-4); }
+
+/* ===== Hero artwork ===== */
+.hero-art {
+  margin-bottom: var(--space-3xl);
+  text-align: center;
+}
+
+.hero-art__placeholder {
+  aspect-ratio: 4 / 3;
+  display: grid;
+  place-items: center;
+  border: 2px dashed var(--color-border);
+  border-radius: var(--radius);
+  background: var(--lamp);
+  color: var(--color-muted);
+  font-style: italic;
+  padding: var(--space-l);
+}
+
+.hero-art__open {
+  display: block;
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: zoom-in;
+  width: 100%;
+  border-radius: var(--radius);
+  overflow: hidden;
+  transition: box-shadow var(--duration) var(--ease);
+}
+
+.hero-art__open:hover,
+.hero-art__open:focus-visible {
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.15);
+}
+
+.hero-art__open img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.hero-art figcaption {
+  margin-top: var(--space-s);
+  font-size: var(--step--1);
+  color: var(--color-muted);
+}
+
+/* ===== Sections ===== */
+.page-fusion .section {
+  margin-bottom: var(--space-3xl);
+  max-width: 80ch;
+}
+
+.page-fusion .section h2 {
+  font-size: var(--step-2);
+  margin-bottom: var(--space-m);
+}
+
+/* ===== Comparison table ===== */
+.compare {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--step--1);
+}
+
+.compare caption {
+  caption-side: top;
+  text-align: left;
+  font-weight: 600;
+  margin-bottom: var(--space-s);
+  color: var(--color-heading);
+}
+
+.compare th,
+.compare td {
+  padding: var(--space-s) var(--space-m);
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.compare thead th {
+  background: var(--indigo);
+  color: #fff;
+  font-weight: 600;
+  position: sticky;
+  top: 0;
+}
+
+.compare thead th:first-child { border-radius: var(--radius-sm) 0 0 0; }
+.compare thead th:last-child  { border-radius: 0 var(--radius-sm) 0 0; }
+
+.compare tbody th {
+  font-weight: 600;
+  white-space: nowrap;
+  background: rgba(28, 43, 74, 0.04);
+}
+
+.compare tbody tr:hover td {
+  background: rgba(181, 101, 29, 0.04);
+}
+
+/* ===== Motif grid ===== */
+.motif-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: var(--space-l);
+}
+
+.motif {
+  text-align: center;
+}
+
+.motif img {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: var(--radius);
+  background: var(--lamp);
+  margin-bottom: var(--space-s);
+}
+
+.motif h3 {
+  font-size: var(--step-0);
+  margin-bottom: var(--space-xs);
+}
+
+.motif p {
+  font-size: var(--step--1);
+  color: var(--color-muted);
+}
+
+/* ===== Swatches (palette) ===== */
+.swatches {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-m);
+  list-style: none;
+  padding: 0;
+}
+
+.swatch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-xs);
+  min-width: 100px;
+}
+
+.swatch__chip {
+  width: 72px;
+  height: 72px;
+  border-radius: var(--radius);
+  background: var(--swatch);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-sm);
+}
+
+.swatch__name {
+  font-weight: 600;
+  font-size: var(--step--1);
+}
+
+.swatch__hex {
+  font-family: var(--font-mono, ui-monospace, monospace);
+  font-size: var(--step--1);
+  color: var(--color-muted);
+}
+
+/* ===== Process gallery ===== */
+.process {
+  list-style: none;
+  padding: 0;
+  counter-reset: step;
+}
+
+.process__step {
+  position: relative;
+  padding-left: var(--space-xl);
+  margin-bottom: var(--space-xl);
+}
+
+/* Vertical connector line */
+.process__step:not(:last-child)::before {
+  content: '';
+  position: absolute;
+  left: 14px;
+  top: 2rem;
+  bottom: calc(-1 * var(--space-xl));
+  width: 2px;
+  background: var(--color-border);
+}
+
+/* Step number dot */
+.process__step::after {
+  content: '';
+  position: absolute;
+  left: 7px;
+  top: 0.4rem;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--turmeric);
+  border: 3px solid var(--color-bg);
+}
+
+.process__step h3 {
+  font-size: var(--step-0);
+  margin-bottom: var(--space-xs);
+}
+
+.process__step p {
+  font-size: var(--step--1);
+  color: var(--color-muted);
+}
+
+.process__step img {
+  margin-top: var(--space-s);
+  width: 100%;
+  max-width: 600px;
+  border-radius: var(--radius-sm);
+  background: var(--lamp);
+}
+
+/* ===== Art viewer dialog ===== */
+.dialog--viewer .dialog__inner {
+  max-width: 95vw;
+  max-height: 95vh;
+  width: auto;
+  padding: var(--space-s);
+}
+
+.dialog--viewer .viewer {
+  max-height: 85vh;
+}

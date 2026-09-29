@@ -1,1 +1,269 @@
-[]
+[
+  {
+    "id": "dancing-girl",
+    "track": "dated",
+    "era": "indus",
+    "order": 10,
+    "title": "Dancing Girl",
+    "dateLabel": "c. 2500 BCE",
+    "dateNote": "Approximate; mature Harappan phase",
+    "place": "Mohenjo-daro (Sindh, Pakistan)",
+    "now": "National Museum, New Delhi",
+    "medium": "Bronze, lost-wax casting",
+    "summary": "A roughly 10.5 cm bronze figure from Mohenjo-daro, cast by the lost-wax method in the mature Harappan phase.",
+    "significance": "Excavated in 1926 at Mohenjo-daro in present-day Sindh, Pakistan, this roughly 10.5 cm bronze was cast using the lost-wax (cire perdue) technique. It demonstrates advanced metallurgy during the mature Harappan phase of the Indus Valley civilisation. The figure stands in a relaxed pose with one hand on the hip and bangles on one arm. The conventional name 'Dancing Girl' is debated by scholars, and the discoverer attribution differs between sources. Now held at the National Museum, New Delhi.",
+    "mapId": null,
+    "image": {
+      "src": "assets/img/timeline/dancing-girl.jpg",
+      "w": 1200,
+      "h": 1600,
+      "alt": "Small bronze figure standing with one hand on hip, wearing bangles on one arm",
+      "creator": "Mangostar / Ismoon",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Dancing_girl.jpg"
+    },
+    "sources": [
+      {
+        "label": "NVLI — Dancing Girl",
+        "url": "https://nvli.in/museums/dancing-girl"
+      }
+    ],
+    "status": "verified",
+    "disputes": [
+      "Conventional name 'Dancing Girl' is debated",
+      "Discoverer attribution differs between sources"
+    ]
+  },
+  {
+    "id": "ajanta-padmapani",
+    "track": "dated",
+    "era": "ajanta",
+    "order": 20,
+    "title": "Padmapani Bodhisattva",
+    "dateLabel": "c. late 5th century CE",
+    "dateNote": "Second phase; precise dating debated",
+    "place": "Ajanta Cave 1, Aurangabad district, Maharashtra",
+    "now": "In situ (Ajanta Caves, UNESCO World Heritage Site)",
+    "medium": "Mural painting on rock",
+    "summary": "A mural of the bodhisattva Padmapani in Ajanta Cave 1, among the largest surviving ancient paintings in India.",
+    "significance": "Located in Cave 1 of the Ajanta rock-cut Buddhist caves near Aurangabad, Maharashtra, this mural depicts the bodhisattva Avalokiteshvara holding a lotus (padma). Ajanta's caves were carved in two phases, from the 2nd century BCE to about 480 CE, with the second-phase dating debated among scholars. Caves 1, 2, 16 and 17 contain the largest surviving paintings from the period. Ajanta was inscribed as a UNESCO World Heritage Site in 1983.",
+    "mapId": "ajanta",
+    "image": {
+      "src": "assets/img/timeline/ajanta-padmapani.jpg",
+      "w": 1200,
+      "h": 1600,
+      "alt": "Mural painting of a standing bodhisattva holding a lotus flower, with ornate crown and jewellery",
+      "creator": "Ancient Indian artist",
+      "license": "Public Domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Ajanta_Padmapani.jpg"
+    },
+    "sources": [
+      {
+        "label": "UNESCO — Ajanta Caves (ref. 242)",
+        "url": "https://whc.unesco.org/en/list/242"
+      }
+    ],
+    "status": "disputed",
+    "disputes": [
+      "Second-phase dating debated among scholars"
+    ]
+  },
+  {
+    "id": "ajanta-cave17-murals",
+    "track": "dated",
+    "era": "ajanta",
+    "order": 21,
+    "title": "Cave 17 Narrative Murals",
+    "dateLabel": "c. 5th century CE",
+    "dateNote": "Second phase; dating debated",
+    "place": "Ajanta Cave 17, Aurangabad district, Maharashtra",
+    "now": "In situ (Ajanta Caves, UNESCO World Heritage Site)",
+    "medium": "Mural painting on rock",
+    "summary": "Narrative Buddhist murals in Ajanta Cave 17, depicting scenes from the Jataka tales in flowing lines and earth tones.",
+    "significance": "Cave 17 at Ajanta contains some of the most extensive surviving Buddhist murals in India. Together with Caves 1, 2 and 16, it preserves the largest body of ancient paintings from the subcontinent. The murals depict scenes from the Jataka tales, painted with flowing lines and rich earth tones. The caves were carved in two phases, from the 2nd century BCE to about the late 5th or 6th century CE, with the exact dating of the second phase debated. Ajanta was designated a UNESCO World Heritage Site in 1983.",
+    "mapId": "ajanta",
+    "image": {
+      "src": "assets/img/timeline/ajanta-cave17.jpg",
+      "w": 1600,
+      "h": 1200,
+      "alt": "Detail of a mural painting showing figures in a narrative scene with earth-toned pigments on rock",
+      "creator": "Jean-Pierre Dalbéra",
+      "license": "CC BY 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Ajanta_Cave_17_Scene_of_the_Vessantara_Jataka.jpg"
+    },
+    "sources": [
+      {
+        "label": "UNESCO — Ajanta Caves (ref. 242)",
+        "url": "https://whc.unesco.org/en/list/242"
+      }
+    ],
+    "status": "disputed",
+    "disputes": [
+      "Second-phase dating debated among scholars"
+    ]
+  },
+  {
+    "id": "brihadisvara-mural",
+    "track": "dated",
+    "era": "chola",
+    "order": 30,
+    "title": "Brihadisvara Temple Mural",
+    "dateLabel": "c. 1003–1010 CE",
+    "dateNote": "Temple construction period under Rajaraja Chola I",
+    "place": "Thanjavur, Tamil Nadu",
+    "now": "In situ (Brihadisvara Temple)",
+    "medium": "Mural painting on stone",
+    "summary": "Murals inside the Brihadisvara Temple at Thanjavur, painted during the reign of Rajaraja Chola I.",
+    "significance": "The Brihadisvara Temple in Thanjavur was built by Rajaraja Chola I between 1003 and 1010 CE. Murals painted on the inner walls of the sanctum were rediscovered beneath later Nayaka-period paintings. The temple is part of the Great Living Chola Temples, inscribed as a UNESCO World Heritage Site in 1987 and extended in 2004. These are among the few surviving Chola-period paintings and demonstrate the artistic achievements of the Chola court.",
+    "mapId": "thanjavur",
+    "image": {
+      "src": "assets/img/timeline/brihadisvara-mural.jpg",
+      "w": 1600,
+      "h": 1200,
+      "alt": "Ancient mural painting on the inner wall of a stone temple, showing figures in warm-toned pigments",
+      "creator": "Ancient Chola artist",
+      "license": "Public Domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Rajaraja_mural.jpg"
+    },
+    "sources": [
+      {
+        "label": "UNESCO — Great Living Chola Temples (ref. 250bis)",
+        "url": "https://whc.unesco.org/en/list/250"
+      }
+    ],
+    "status": "verified",
+    "disputes": []
+  },
+  {
+    "id": "hamzanama-folio",
+    "track": "dated",
+    "era": "mughal",
+    "order": 40,
+    "title": "Hamzanama Folio",
+    "dateLabel": "c. 1562–1577",
+    "dateNote": "Commissioned by Emperor Akbar",
+    "place": "Mughal imperial atelier",
+    "now": "Dispersed across museums worldwide",
+    "medium": "Opaque watercolour on cotton-backed paper",
+    "summary": "A folio from the Hamzanama, a massive illustrated manuscript commissioned by the Mughal emperor Akbar.",
+    "significance": "The Hamzanama was commissioned by the Mughal emperor Akbar. His father Humayun had brought the Persian painters Mir Sayyid Ali and Abd al-Samad to India, and they supervised this monumental project. Produced between about 1562 and 1577, the manuscript originally comprised about 1,400 large folios painted on cotton-backed paper. About 200 survive today, dispersed across collections worldwide. The project blended Persian techniques with Indian colour and narrative energy, helping establish the distinctive Mughal painting style.",
+    "mapId": null,
+    "image": {
+      "src": "assets/img/timeline/hamzanama-folio.jpg",
+      "w": 1600,
+      "h": 1200,
+      "alt": "A large illustrated manuscript folio with vivid colours depicting a narrative scene",
+      "creator": "Attributed to Basawan and Jagan",
+      "license": "Public Domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Mahlaj_shows_his_skill_to_Zumurrud_Shah_and_runs_a_spear_through_a_tree_(From_the_Hamzanama,_Volume_11).jpg"
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Hamzanama",
+        "url": "https://en.wikipedia.org/wiki/Hamzanama"
+      }
+    ],
+    "status": "verified",
+    "disputes": []
+  },
+  {
+    "id": "jaipur-miniature",
+    "track": "dated",
+    "era": "mughal",
+    "order": 50,
+    "title": "Jaipur School Miniature",
+    "dateLabel": "Early 18th century",
+    "dateNote": "School takes distinct identity under Sawai Jai Singh (1699–1743)",
+    "place": "Jaipur, Rajasthan",
+    "now": "Maharaja Sawai Man Singh II Museum, City Palace, Jaipur",
+    "medium": "Opaque watercolour on paper",
+    "summary": "A miniature from the Jaipur school, which developed its own identity in the early eighteenth century.",
+    "significance": "The Jaipur school of miniature painting took its distinct identity in the early 18th century under Sawai Jai Singh (ruled 1699–1743). While rooted in Mughal painting traditions, it developed its own vocabulary with richer colours, bolder compositions and Rajput court themes. Collections of Jaipur school paintings are held at the Maharaja Sawai Man Singh II Museum in the City Palace, Jaipur. The school represents an important regional development in the broader history of Indian court miniature painting.",
+    "mapId": "jaipur",
+    "image": {
+      "src": "assets/img/timeline/jaipur-miniature.jpg",
+      "w": 1200,
+      "h": 1600,
+      "alt": "A small detailed painting on paper showing a court scene with rich colours and fine brushwork",
+      "creator": "18th-century court painter",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Raslila,_18th_century_CE,_Rajasthani_School_of_Art,_City_Palace_Museum,_Jaipur.jpg"
+    },
+    "sources": [
+      {
+        "label": "D. K. Printworld — Panorama of Jaipur Paintings",
+        "url": "https://dkprintworld.com/product/panorama-of-jaipur-paintings/"
+      }
+    ],
+    "status": "verified",
+    "disputes": []
+  },
+  {
+    "id": "madhubani-kohbar",
+    "track": "living",
+    "era": "madhubani",
+    "order": 60,
+    "title": "Kohbar Wall Painting",
+    "dateLabel": "Living tradition",
+    "dateNote": "Documented to outsiders after the 1934 earthquake; moved to paper in 1966",
+    "place": "Mithila region (Madhubani district, Bihar)",
+    "now": null,
+    "medium": "Natural pigments on mud walls and paper",
+    "summary": "A Kohbar painting from the Madhubani tradition, made on mud walls for weddings and ceremonies.",
+    "significance": "Madhubani painting (also called Mithila painting) is a living folk tradition from the Mithila region in Bihar. Kohbar paintings are traditionally made on newly plastered mud walls of the bridal chamber. The tradition was documented to outsiders after the earthquake of 15 January 1934, when W. G. Archer noticed the paintings on exposed walls. In 1966, through the efforts of Pupul Jayakar and Bhaskar Kulkarni, artists began working on paper, helping the tradition gain wider recognition. Madhubani painting received a Geographical Indication registration in 2007.",
+    "mapId": "madhubani",
+    "image": {
+      "src": "assets/img/timeline/madhubani-kohbar.jpg",
+      "w": 1200,
+      "h": 1200,
+      "alt": "Intricate painting with fine linework and geometric patterns in bright natural pigments on a flat surface",
+      "creator": "AxomiyaDangoriya",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:34545016_kohbar_auspicious_marriage_diagram_dh93.jpg"
+    },
+    "sources": [
+      {
+        "label": "Sarmaya — Madhubani discovery history",
+        "url": "https://sarmaya.in/?p=8707"
+      }
+    ],
+    "status": "verified",
+    "disputes": []
+  },
+  {
+    "id": "warli-chowk",
+    "track": "living",
+    "era": "warli",
+    "order": 70,
+    "title": "Warli Chowk Painting",
+    "dateLabel": "Living tradition",
+    "dateNote": "Origin undocumented; often placed around the 10th century CE; wider recognition from the 1970s",
+    "place": "Thane and Palghar districts, Maharashtra",
+    "now": null,
+    "medium": "White rice-paste on mud walls",
+    "summary": "A ceremonial Warli chowk painting, using white rice-paste on mud walls with circle, triangle and square motifs.",
+    "significance": "Warli painting is a folk art tradition from the Thane and Palghar districts of Maharashtra. Artists paint on mud walls coated with red ochre or a cow-dung mixture, using white paste made from rice as the only pigment. The visual vocabulary is built from three basic shapes: circle, triangle and square. Human and animal figures are formed from two triangles joined at the tip. The chowk is a central ritual square painted for ceremonies. The tradition's origin is undocumented but is often placed around the 10th century CE. It gained wider recognition from the 1970s. Warli painting received a GI certificate dated 31 March 2014.",
+    "mapId": "warli",
+    "image": {
+      "src": "assets/img/timeline/warli-chowk.jpg",
+      "w": 1200,
+      "h": 1200,
+      "alt": "White geometric figures of people, animals and patterns painted on a brown-red earthen wall",
+      "creator": "Omrmankar",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Warli_painting.jpg"
+    },
+    "sources": [
+      {
+        "label": "Wikipedia — Warli painting",
+        "url": "https://en.wikipedia.org/wiki/Warli_painting"
+      },
+      {
+        "label": "IP Press — Warli GI record",
+        "url": "https://www.theippress.com/?p=3433"
+      }
+    ],
+    "status": "verified",
+    "disputes": []
+  }
+]

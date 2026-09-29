@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<style>
+  .card { width: 300px; border: 1px solid red; }
+  img { height: auto; max-width: 100%; display: block; }
+  .card__img {
+    aspect-ratio: 4 / 3;
+    width: 100%;
+    object-fit: cover;
+    height: unset; /* overriding global height: auto */
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <img class="card__img" src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Ajanta_Caves_panorama_view.jpg">
+  </div>
+</body>
+</html>

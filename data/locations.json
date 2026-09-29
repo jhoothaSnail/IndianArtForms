@@ -1,1 +1,332 @@
-[]
+[
+  {
+    "id": "ajanta",
+    "name": "Ajanta Caves",
+    "state": "Maharashtra",
+    "lat": 20.5533,
+    "lng": 75.7003,
+    "medium": "mural",
+    "kind": "point",
+    "region": null,
+    "period": "2nd c. BCE to c. 5th/6th c. CE (dating debated)",
+    "summary": "Rock-cut Buddhist caves with some of the largest surviving ancient paintings in India.",
+    "context": "The Ajanta caves near Aurangabad were carved in two phases. The earliest caves date to the 2nd century BCE; the later phase ended around 480 CE, though the precise dating is debated. Caves 1, 2, 16 and 17 contain extensive murals. Ajanta was inscribed as a UNESCO World Heritage Site in 1983 (ref. 242).",
+    "tabs": null,
+    "image": {
+      "src": "assets/img/map/ajanta.jpg",
+      "w": 1600,
+      "h": 1200,
+      "alt": "Exterior view of rock-cut cave entrances carved into a horseshoe-shaped cliff",
+      "creator": "Ms Sarah Welch",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Ajanta_Caves_panorama_view.jpg"
+    },
+    "timelineIds": [
+      "ajanta-padmapani",
+      "ajanta-cave17-murals"
+    ],
+    "sources": [
+      {
+        "label": "UNESCO — Ajanta Caves (ref. 242)",
+        "url": "https://whc.unesco.org/en/list/242"
+      }
+    ],
+    "status": "disputed",
+    "disputes": [
+      "Second-phase dating debated among scholars"
+    ]
+  },
+  {
+    "id": "ellora",
+    "name": "Ellora Caves",
+    "state": "Maharashtra",
+    "lat": 20.0239,
+    "lng": 75.1778,
+    "medium": "sculpture-architecture",
+    "kind": "point",
+    "region": null,
+    "period": "c. 6th–11th century CE",
+    "summary": "Thirty-four rock-cut caves spanning Buddhist, Hindu and Jain traditions, including the monolithic Kailasa temple.",
+    "context": "Ellora contains 34 caves: 12 Buddhist, 17 Hindu and 5 Jain, carved between roughly the 6th and 11th centuries CE. The Kailasa temple (Cave 16), carved under the Rashtrakuta king Krishna I around 756–775 CE, is the largest monolithic rock-cut structure in the world. Ellora was inscribed as a UNESCO World Heritage Site in 1983 (ref. 243).",
+    "tabs": null,
+    "image": {
+      "src": "assets/img/map/ellora.jpg",
+      "w": 1600,
+      "h": 1200,
+      "alt": "Monolithic Kailasa temple carved from a single rock, viewed from above showing the multi-level structure",
+      "creator": "Ms Sarah Welch",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Kailasa_temple_overview,_Ellora.jpg"
+    },
+    "timelineIds": [],
+    "sources": [
+      {
+        "label": "UNESCO — Ellora Caves (ref. 243)",
+        "url": "https://whc.unesco.org/en/list/243"
+      },
+      {
+        "label": "ASI Aurangabad Circle — Ellora",
+        "url": "https://asiaurangabadcircle.com/monuments/ellora/elloraCaves.php"
+      }
+    ],
+    "status": "verified",
+    "disputes": []
+  },
+  {
+    "id": "thanjavur",
+    "name": "Thanjavur",
+    "state": "Tamil Nadu",
+    "lat": 10.7831,
+    "lng": 79.1325,
+    "medium": "mural",
+    "kind": "point",
+    "region": null,
+    "period": "c. 1003 CE onwards",
+    "summary": "Home to both the Brihadisvara Temple's Chola-era murals and the later Thanjavur painting tradition.",
+    "context": "Thanjavur is associated with two distinct painting traditions at different periods.",
+    "tabs": [
+      {
+        "label": "Chola Temple Murals",
+        "period": "c. 1003–1010 CE",
+        "summary": "Murals inside the sanctum of the Brihadisvara Temple, painted during the reign of Rajaraja Chola I.",
+        "context": "The Brihadisvara Temple was built by Rajaraja Chola I between 1003 and 1010 CE. The original Chola-period murals were rediscovered beneath later Nayaka-period paintings. The temple is part of the Great Living Chola Temples UNESCO World Heritage Site (inscribed 1987, extended 2004)."
+      },
+      {
+        "label": "Thanjavur Painting",
+        "period": "c. 1600–1855",
+        "summary": "A distinctive style of panel painting originating under the Nayakas, reaching its present form during the Maratha court period.",
+        "context": "Thanjavur painting originated around 1600 under the Nayaka rulers and developed its characteristic form during the Maratha court period (1676–1855). It is distinct from the earlier Chola-period temple murals. Thanjavur painting received a Geographical Indication registration in 2007–08."
+      }
+    ],
+    "image": {
+      "src": "assets/img/map/thanjavur.jpg",
+      "w": 1600,
+      "h": 1200,
+      "alt": "The tall pyramidal tower of the Brihadisvara Temple rising above the temple complex",
+      "creator": "Rainer Halama",
+      "license": "CC BY-SA",
+      "source": "https://commons.wikimedia.org/wiki/File:Brihadisvara_Temple_during_Maha_Shivaratri-WUS03611_(edit).jpg"
+    },
+    "timelineIds": [
+      "brihadisvara-mural"
+    ],
+    "sources": [
+      {
+        "label": "UNESCO — Great Living Chola Temples (ref. 250bis)",
+        "url": "https://whc.unesco.org/en/list/250"
+      }
+    ],
+    "status": "verified",
+    "disputes": []
+  },
+  {
+    "id": "khajuraho",
+    "name": "Khajuraho Temples",
+    "state": "Madhya Pradesh",
+    "lat": 24.8544,
+    "lng": 79.9214,
+    "medium": "sculpture-architecture",
+    "kind": "point",
+    "region": null,
+    "period": "c. 950–1050 CE (sources give varying ranges)",
+    "summary": "Chandela-dynasty temples renowned for their sculptural programmes; about 20 survive of roughly 85 recorded.",
+    "context": "The Khajuraho group of temples was built by the Chandela dynasty, mostly in the 10th and 11th centuries. Sources give varying date ranges (950–1050 CE and 885–1000 CE). About 20 temples survive of approximately 85 recorded. They are known primarily for sculpture and architecture, not painting. Khajuraho was inscribed as a UNESCO World Heritage Site in 1986 (ref. 240).",
+    "tabs": null,
+    "image": {
+      "src": "assets/img/map/khajuraho.jpg",
+      "w": 1600,
+      "h": 1200,
+      "alt": "A sandstone temple with a clustered tower and sculpted exterior walls, set against a clear sky",
+      "creator": "Arun.arunb",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Kandariya_Mahadeva_Temple,_Khajuraho.jpg"
+    },
+    "timelineIds": [],
+    "sources": [
+      {
+        "label": "UNESCO — Khajuraho (ref. 240)",
+        "url": "https://whc.unesco.org/en/list/240"
+      },
+      {
+        "label": "Wikipedia — Khajuraho Group of Monuments",
+        "url": "https://en.wikipedia.org/wiki/Khajuraho_Group_of_Monuments"
+      }
+    ],
+    "status": "disputed",
+    "disputes": [
+      "Construction date range varies between sources (950–1050 CE vs 885–1000 CE)"
+    ]
+  },
+  {
+    "id": "madhubani",
+    "name": "Madhubani (Mithila Region)",
+    "state": "Bihar",
+    "lat": 26.3541,
+    "lng": 86.0717,
+    "medium": "folk-painting",
+    "kind": "region",
+    "region": [
+      [
+        26.45,
+        85.95
+      ],
+      [
+        26.45,
+        86.2
+      ],
+      [
+        26.25,
+        86.2
+      ],
+      [
+        26.25,
+        85.95
+      ]
+    ],
+    "period": "Living tradition; documented to outsiders from 1934",
+    "summary": "The Mithila region in Bihar, home to Madhubani painting — a living folk art tradition practised on mud walls and paper.",
+    "context": "Madhubani painting was documented to outsiders after the earthquake of 15 January 1934, when the British colonial officer W. G. Archer noticed paintings on exposed walls. In 1966 the tradition moved to paper through the efforts of Pupul Jayakar and Bhaskar Kulkarni. Key villages include Jitwarpur, Ranti and Rasidpur. Madhubani painting received a Geographical Indication registration in 2007.",
+    "tabs": null,
+    "image": {
+      "src": "assets/img/map/madhubani.jpg",
+      "w": 1600,
+      "h": 1200,
+      "alt": "A painted mud wall showing intricate line patterns and figures in bright natural pigments",
+      "creator": "Bhuvana Meenakshi",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Madhubani_painting_by_Bhuvana_Meenakshi.jpg"
+    },
+    "timelineIds": [
+      "madhubani-kohbar"
+    ],
+    "sources": [
+      {
+        "label": "Sarmaya — Madhubani discovery history",
+        "url": "https://sarmaya.in/?p=8707"
+      }
+    ],
+    "status": "verified",
+    "disputes": []
+  },
+  {
+    "id": "warli",
+    "name": "Warli Region",
+    "state": "Maharashtra",
+    "lat": 19.85,
+    "lng": 72.85,
+    "medium": "folk-painting",
+    "kind": "region",
+    "region": [
+      [
+        20.15,
+        72.55
+      ],
+      [
+        20.15,
+        73.15
+      ],
+      [
+        19.55,
+        73.15
+      ],
+      [
+        19.55,
+        72.55
+      ]
+    ],
+    "period": "Living tradition; origin often placed around the 10th century CE",
+    "summary": "The Thane and Palghar districts of Maharashtra, where the Warli painting tradition is practised.",
+    "context": "Warli painting originates from the Thane and Palghar districts of Maharashtra. The tradition's origin is undocumented but is often placed around the 10th century CE. It gained wider recognition from the 1970s, associated with the work of Jivya Soma Mashe. Artists paint on mud walls using white rice-paste, with a vocabulary of circles, triangles and squares. Warli painting received a GI certificate dated 31 March 2014.",
+    "tabs": null,
+    "image": {
+      "src": "assets/img/map/warli.jpeg",
+      "w": 1600,
+      "h": 1200,
+      "alt": "White geometric figures of people dancing in a circle painted on a brown-red earthen wall",
+      "creator": "Joy1963",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Warli_painting_in_Warli.JPG"
+    },
+    "timelineIds": [
+      "warli-chowk"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia — Warli painting",
+        "url": "https://en.wikipedia.org/wiki/Warli_painting"
+      },
+      {
+        "label": "IP Press — Warli GI record",
+        "url": "https://www.theippress.com/?p=3433"
+      }
+    ],
+    "status": "verified",
+    "disputes": []
+  },
+  {
+    "id": "puri",
+    "name": "Puri / Raghurajpur",
+    "state": "Odisha",
+    "lat": 19.8876,
+    "lng": 85.831,
+    "medium": "folk-painting",
+    "kind": "point",
+    "region": null,
+    "period": "Living tradition linked to Jagannath worship",
+    "summary": "The village of Raghurajpur near Puri, a hub of the Pattachitra cloth scroll painting tradition.",
+    "context": "Pattachitra is a cloth scroll painting tradition linked to Jagannath worship. The hub village of Raghurajpur is about 14 km from Puri. Artists prepare cloth canvases and paint using natural pigments.",
+    "tabs": null,
+    "image": {
+      "src": "assets/img/map/puri.jpg",
+      "w": 1600,
+      "h": 1200,
+      "alt": "A detailed cloth scroll painting with figures and decorative borders in natural pigments",
+      "creator": "Sumita Roy Dutta",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Artist_with_Odisha_Pattachitra_DSCN1052_01.jpg"
+    },
+    "timelineIds": [],
+    "sources": [
+      {
+        "label": "Wikipedia — Pattachitra",
+        "url": "https://en.wikipedia.org/wiki/Pattachitra"
+      }
+    ],
+    "status": "verified",
+    "disputes": []
+  },
+  {
+    "id": "jaipur",
+    "name": "Jaipur",
+    "state": "Rajasthan",
+    "lat": 26.9258,
+    "lng": 75.8235,
+    "medium": "court-miniature",
+    "kind": "point",
+    "region": null,
+    "period": "School takes distinct identity in the early 18th century",
+    "summary": "Jaipur, home to a distinctive school of miniature painting that emerged under Sawai Jai Singh.",
+    "context": "The Jaipur school of miniature painting took its distinct identity in the early 18th century under Sawai Jai Singh (1699–1743). Collections are held at the Maharaja Sawai Man Singh II Museum in the City Palace. The school is rooted in Mughal traditions but developed its own character with Rajput court themes.",
+    "tabs": null,
+    "image": {
+      "src": "assets/img/map/jaipur.jpg",
+      "w": 1600,
+      "h": 1200,
+      "alt": "Exterior view of the City Palace in Jaipur with ornate arched gateways and courtyards",
+      "creator": "Chainwit.",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:City_Palace_Jaipur_%22Peacock_Gate%22_01.jpg"
+    },
+    "timelineIds": [
+      "jaipur-miniature"
+    ],
+    "sources": [
+      {
+        "label": "D. K. Printworld — Panorama of Jaipur Paintings",
+        "url": "https://dkprintworld.com/product/panorama-of-jaipur-paintings/"
+      }
+    ],
+    "status": "verified",
+    "disputes": []
+  }
+]

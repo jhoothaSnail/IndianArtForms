@@ -1,0 +1,13 @@
+/* doc.css — Styles for sources.html and about.html */
+
+.doc { padding-bottom: var(--space-3xl); }
+
+.doc section + section { margin-top: var(--space-2xl); }
+
+.doc h2 { margin-bottom: var(--space-m); }
+
+.doc ul, .doc ol { padding-left: var(--space-l); }
+
+.doc li + li { margin-top: var(--space-s); }
+
+.doc p + p { margin-top: var(--space-m); }

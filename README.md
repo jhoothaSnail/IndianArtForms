@@ -1,4 +1,4 @@
-# CLA-I Indian Art Project: Implementation Plan
+# Indian Art Forms: Implementation Plan
 
 Scope: (1) Interactive Timeline, (2) Interactive Art Map, (3) Warli × Kalamkari Fusion Artwork, delivered as one static website plus artwork files.
 Rule for the whole project: **no fact, date, number or image ships without a recorded source and licence.**

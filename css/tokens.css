@@ -1,0 +1,66 @@
+﻿@font-face {
+  font-family: 'Fraunces';
+  src: url('../assets/fonts/fraunces.woff2') format('woff2');
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+/* tokens.css â€” Design tokens: colours, type scale, spacing, layout */
+:root {
+  /* Palette â€” derived from the traditions' materials */
+  --cream: #F5EEDC;
+  --ochre: #B5651D;
+  --madder: #8E2A22;
+  --indigo: #1C2B4A;
+  --turmeric: #D9A23B;
+  --leaf: #4E6B3A;
+  --lamp: #1A1614;
+
+  /* Semantic aliases */
+  --color-bg: var(--cream);
+  --color-text: var(--lamp);
+  --color-heading: var(--indigo);
+  --color-link: var(--madder);
+  --color-link-hover: var(--ochre);
+  --color-accent: var(--turmeric);
+  --color-surface: #fff;
+  --color-border: #d4cfc5;
+  --color-muted: #6b6560;
+
+  /* Typography */
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: system-ui, -apple-system, sans-serif;
+
+  /* Fluid type scale (step 0 = body) */
+  --step--1: clamp(0.875rem, 0.85rem + 0.12vw, 0.9375rem);
+  --step-0: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
+  --step-1: clamp(1.125rem, 1.05rem + 0.4vw, 1.35rem);
+  --step-2: clamp(1.35rem, 1.2rem + 0.75vw, 1.75rem);
+  --step-3: clamp(1.75rem, 1.5rem + 1.25vw, 2.5rem);
+  --step-4: clamp(2.25rem, 1.85rem + 2vw, 3.5rem);
+
+  /* Spacing */
+  --space-xs: 0.25rem;
+  --space-s: 0.5rem;
+  --space-m: 1rem;
+  --space-l: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+
+  /* Layout */
+  --max: 1200px;
+  --header-h: 64px;
+  --radius: 10px;
+  --radius-sm: 6px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(26, 22, 20, 0.08);
+  --shadow-md: 0 4px 12px rgba(26, 22, 20, 0.1);
+  --shadow-lg: 0 8px 24px rgba(26, 22, 20, 0.12);
+
+  /* Transitions */
+  --ease: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --duration: 0.25s;
+}
+

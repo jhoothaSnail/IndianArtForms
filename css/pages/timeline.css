@@ -1,0 +1,148 @@
+/* timeline.css — Timeline page layout and components */
+
+/* ===== Era rail (sticky navigation) ===== */
+.era-rail {
+  position: sticky;
+  top: var(--header-h);
+  z-index: 10;
+  background: var(--color-bg);
+  border-bottom: 1px solid var(--color-border);
+  padding: var(--space-s) 0;
+  margin-bottom: var(--space-xl);
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.era-rail ul {
+  display: flex;
+  gap: var(--space-s);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.era-link {
+  display: inline-block;
+  padding: var(--space-xs) var(--space-m);
+  border-radius: 99px;
+  font-size: var(--step--1);
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--color-muted);
+  transition: background var(--duration) var(--ease), color var(--duration) var(--ease);
+}
+
+.era-link:hover { color: var(--color-heading); background: rgba(28, 43, 74, 0.05); }
+.era-link.active { background: var(--indigo); color: #fff; }
+
+/* ===== Legend ===== */
+.legend {
+  display: flex;
+  gap: var(--space-l);
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin-bottom: var(--space-xl);
+  font-size: var(--step--1);
+  color: var(--color-muted);
+}
+
+.legend__dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: var(--space-xs);
+  vertical-align: middle;
+}
+
+.legend__dot--dated { background: var(--indigo); }
+.legend__dot--living { background: var(--leaf); }
+
+/* ===== Track sections ===== */
+.track { margin-bottom: var(--space-3xl); }
+.track h2 { font-size: var(--step-2); margin-bottom: var(--space-m); }
+
+.track-note {
+  font-size: var(--step--1);
+  color: var(--color-muted);
+  font-style: italic;
+  margin-bottom: var(--space-xl);
+  max-width: 60ch;
+}
+
+/* ===== Spine (vertical list) ===== */
+.spine {
+  list-style: none;
+  padding: 0;
+  position: relative;
+}
+
+/* Center line on desktop */
+@media (min-width: 900px) {
+  .spine::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: var(--color-border);
+  }
+}
+
+/* ===== Era section markers ===== */
+.era-section {
+  margin-bottom: var(--space-l);
+  position: relative;
+  z-index: 1;
+}
+
+@media (min-width: 900px) { .era-section { text-align: center; } }
+
+.era-label {
+  display: inline-block;
+  padding: var(--space-xs) var(--space-l);
+  background: var(--color-bg);
+  border: 2px solid var(--color-border);
+  border-radius: 99px;
+  font-size: var(--step-1);
+  font-weight: 700;
+  color: var(--color-heading);
+}
+
+/* ===== Spine items — alternate left/right on desktop ===== */
+.spine__item {
+  margin-bottom: var(--space-xl);
+}
+
+@media (min-width: 900px) {
+  .spine__item { width: 44%; }
+  .spine__item--left { margin-right: 56%; }
+  .spine__item--right { margin-left: 56%; }
+}
+
+/* ===== Timeline cards ===== */
+.page-timeline .card__img {
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.card__open {
+  margin-top: var(--space-s);
+  font-size: var(--step--1);
+}
+
+/* ===== Dialog image viewer area ===== */
+.dialog .viewer {
+  max-height: 55vh;
+  border-radius: var(--radius-sm);
+}
+
+.dialog__date {
+  font-family: var(--font-display);
+}
+
+/* ===== Dialog "Now held at" conditional row ===== */
+.facts > div[hidden] { display: none; }

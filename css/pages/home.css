@@ -1,0 +1,93 @@
+/* home.css — Home page specific styles */
+
+/* === Hero === */
+.hero {
+  padding: var(--space-3xl) 0 var(--space-2xl);
+  text-align: center;
+}
+
+.hero h1 {
+  max-width: 18ch;
+  margin-inline: auto;
+  margin-bottom: var(--space-m);
+}
+
+.hero .lead {
+  margin-inline: auto;
+  margin-bottom: var(--space-xl);
+}
+
+.hero__actions {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-m);
+  flex-wrap: wrap;
+}
+
+/* === Three doors === */
+.doors { margin-top: var(--space-3xl); }
+
+.doors__grid {
+  display: grid;
+  gap: var(--space-l);
+  list-style: none;
+  padding: 0;
+}
+
+@media (min-width: 600px) {
+  .doors__grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+.door {
+  display: flex;
+  flex-direction: column;
+  padding: var(--space-xl);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius);
+  text-decoration: none;
+  color: var(--color-text);
+  transition: border-color var(--duration) var(--ease),
+              box-shadow var(--duration) var(--ease),
+              transform var(--duration) var(--ease);
+}
+
+.door:hover {
+  border-color: var(--indigo);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-3px);
+}
+
+.door__num {
+  font-family: var(--font-display);
+  font-size: var(--step-3);
+  color: var(--color-border);
+  line-height: 1;
+  margin-bottom: var(--space-m);
+}
+
+.door h3 {
+  font-size: var(--step-2);
+  margin-bottom: var(--space-s);
+}
+
+.door p {
+  flex: 1;
+  font-size: var(--step--1);
+  color: var(--color-muted);
+}
+
+.door__cta {
+  display: inline-block;
+  margin-top: var(--space-m);
+  font-weight: 600;
+  color: var(--indigo);
+  font-size: var(--step--1);
+}
+
+/* === Steps list === */
+.steps {
+  max-width: 50ch;
+  padding-left: var(--space-l);
+}
+
+.steps li + li { margin-top: var(--space-s); }
